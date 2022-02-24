@@ -3,6 +3,9 @@ body{
     background-image: url(images/pattern1.jpg);
     background-attachment: fixed;
     background-position: left bottom;
+    text-indent: 15px;
+    word-spacing: 10px;
+    letter-spacing: 0.5px;
     /* background-repeat: no-repeat; */
     /* background-size: 100%; */
 }
@@ -15,6 +18,7 @@ body{
     text-align: center;
     line-height: 50px;
     text-transform: uppercase;
+    text-decoration:dotted;
 }
 
 h3{
