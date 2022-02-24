@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'onePiece';
+    src: url(fonts/OPfont.ttf);
+}
+
+
+h1 {
+    font-family: 'onePiece', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
