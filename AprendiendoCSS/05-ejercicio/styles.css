@@ -70,10 +70,11 @@ footer{
     text-align: center;
     border-bottom: 1px solid rgb(95, 95, 95);
     padding: 15px;
-    
+    text-shadow: 0px 0px 5px black;
 }
 
 #contenido .caja{
+    position: relative;
     width: 40%;
     height: 250px;
     background-color: aquamarine;
@@ -87,7 +88,19 @@ footer{
     border: 1px solid red;
     width: 29%;
     height: 100%;
+    max-height: 350px;
     color: black;
     float: left;
+    overflow-y: scroll;
+}
+
+.libre{
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    border: 1px solid black;
+    background-color: beige;
+    width: 50px;
+    height: 100px;
 }
 
