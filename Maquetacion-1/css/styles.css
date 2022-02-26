@@ -9,6 +9,22 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "fajala";
+    src: url(../fonts/FjallaOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "icons";
+    src: url(../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg'),
+        url(../fonts/websymbols-regular-webfont.eot);
+    src: url(../fonts/websymbols-regular-webfont.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/websymbols-regular-webfont.woff) format("woff"),
+        url(../fonts/websymbols-regular-webfont.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Estilos generales */
 *{
@@ -200,7 +216,6 @@ button:active{
 
 /* Barra lateral */
 #aside, #frase{
-    clear: both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -239,7 +254,7 @@ button:active{
     border-right: none;
     margin-bottom: 15px;
 }
-#aside a{
+#aside a, #sections a{
     display: block;
     text-align: left !important;
     text-decoration: none;
@@ -271,7 +286,7 @@ button:active{
     text-align: center;
 }
 
-#aside a:hover{
+#aside a:hover, #sections a:hover{
     color: #5ff723;
 }
 
@@ -301,3 +316,99 @@ button:active{
 #frase p{
     font-size: 12px;
 }
+
+/* Secciones */
+#sections{
+    float: right;
+    width: 75%;
+    font-family: sans-serif, arial, helvetica;
+    margin-right: 20px;
+}
+
+#sections .titulo{
+    font-family: "fajala";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333333;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+#sections article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sections .date{
+    color: gray;
+    font-size: 12px;
+}
+
+#sections .stickerone, #sections .sitckertwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+#sections .sitckertwo{
+    margin-left: 860px;
+}
+
+#sections section:last-child{
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-family: "icons";
+    float: left;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+article a{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+/* Pie de pagina */
+#history{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+
+
