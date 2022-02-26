@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#container{
+    width: 80%;
+    background-color: aquamarine;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+aside{
+    background-color: antiquewhite;
+    min-height: 700px;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 700px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#articles{
+    width: 75%;
+    min-height: 700px;
+    margin: 0px auto;
+    float: left;
+    background-color: lemonchiffon;
+}
+
+#articles article{
+    width: 15%;
+    height: 150px;
+    background-color: greenyellow;
+    color: black;
+    line-height: 150px;
+    border: 2px solid red;
+    float: left;
+    margin: 30px;
+}
+
+/* Responsive */
+
+/* Desde la anchura 0 al 888 de pantalla estaran estos estilos */
+@media (max-width: 1071px) {
+    
+    #articles article{
+        width: 40%;
+        background-color: red;
+    }
+}
+
+@media (max-width: 890px){
+    #articles article{
+        width: 80%;
+        background-color: blueviolet;
+    }
+}
