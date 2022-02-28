@@ -292,3 +292,38 @@ aside h3{
     margin-left: 22px;
     margin-top: 26px;
 }
+
+#login input[type="submit"],
+#login input[type="button"],
+#login input[type="reset"],
+#login button{
+    /* display: block; */
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin: 0px auto;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca);
+    border: 1px solid #156782;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "TrebuchetMS";
+    font-weight: lighter;
+    margin-left: 28px;
+    transition: all 300ms;
+}
+
+#login input[type="submit"]:hover,
+#login input[type="button"]:hover,
+#login input[type="reset"]:hover,
+#login button:hover{
+    box-shadow: 0px 0px 3px gray;
+}
+
+#login input[type="submit"]:active,
+#login input[type="button"]:active,
+#login input[type="reset"]:active,
+#login button:active{
+    box-shadow: 0px 0px 3px gray inset;
+}
