@@ -303,6 +303,7 @@ aside h3{
     height: 35px;
     margin: 0px auto;
     margin-top: 20px;
+    margin-bottom: 10px;
     color: white;
     background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca);
     border: 1px solid #156782;
@@ -326,4 +327,27 @@ aside h3{
 #login input[type="reset"]:active,
 #login button:active{
     box-shadow: 0px 0px 3px gray inset;
+}
+
+#login a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    margin: 0px auto;
+}
+
+#login a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
+}
+
+#social a{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
