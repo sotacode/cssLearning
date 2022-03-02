@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+#layout{
+    display: flex;
+    /* flex-direction:row; */ 
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap; /* Igual a las 2 lineas de arriba */
+    justify-content:space-evenly; /* Centrar horizontalmente */
+    height: 500px;
+    /* align-items: center; */ /* Centrar verticalmente */
+    align-items: flex-start;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja{
+    /* flex-grow: 1; */  /* Cada caja ocupa el mismo espacio */
+    /* width: 25%; */
+    /* flex-basis: 25%; */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background-color: gray;
+}
+
+.red{
+    /* flex-grow: 2; *//* Da un tamano de espacio dentro del flexbox */
+    /* flex-shrink: 0; */ /* Reduce el tamano dentro del flexbox */
+    /* flex-basis: calc(100% / 3 - 68px); */
+    align-self: flex-start;
+    background-color: red;
+}
+
+.green{
+    /* flex-basis: calc(100% / 3 - 68px); */
+    align-self: center;
+    margin-top: -10%;
+    background-color: green;
+}
+
+.blue{
+    /* flex-basis: calc(100% / 3 - 68px); */
+    align-self: center;
+    margin-top: 10%;
+    background-color: blue;
+}
+.orange{
+    /* flex-grow: 10; *//* Da un tamano de espacio dentro del flexbox */
+    /* flex-basis: 100%; */
+    align-self: flex-end;
+    background-color: orange;
+}
